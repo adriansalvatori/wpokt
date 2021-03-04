@@ -123,10 +123,10 @@ $link: #5F1957;
 
 html {
     text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
-    animation-duration: 0.01s;
-    animation-name: textflicker;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    // animation-duration: 0.01s;
+    // animation-name: textflicker;
+    // animation-iteration-count: infinite;
+    // animation-direction: alternate;
     background: $dark;
     overflow: hidden;
 
@@ -138,10 +138,10 @@ html {
 img,
 *:before {
     filter: drop-shadow(0 0 #ea36af, -2px 0 0 #75fa69);
-    animation-duration: 0.01s;
-    animation-name: flicker;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    // animation-duration: 0.01s;
+    // animation-name: flicker;
+    // animation-iteration-count: infinite;
+    // animation-direction: alternate;
 }
 
 @keyframes textflicker {
